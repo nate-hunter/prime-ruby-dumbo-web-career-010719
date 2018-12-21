@@ -8,8 +8,8 @@
 
 # Add  code here!
 
-def prime?(n)
-  if n % 2 
+def prime?(num)
+  if num % 2 
     puts TRUE
   else
     FALSE
