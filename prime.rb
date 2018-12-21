@@ -12,7 +12,7 @@ def prime?(int)
   if int == 0 || int == 1 || int < 0  
     false 
   else
-    arr = [2..int-1] do |number|
+    (2..int-1).to_a.all? do |number|
       int % number != 0 
     end  
   end
