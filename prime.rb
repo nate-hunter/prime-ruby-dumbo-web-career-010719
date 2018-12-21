@@ -8,10 +8,14 @@
 
 # Add  code here!
 
-def prime?(num)
-  if num % 2 
-    puts TRUE
+def prime?(int)
+  if int == 0 || int == 1 || int < 0  
+    false 
   else
-    FALSE
+    arr = [2..int-1] do |number|
+      int % number != 0 
+    end  
   end
 end
+
+
