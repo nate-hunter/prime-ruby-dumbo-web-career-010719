@@ -8,8 +8,8 @@
 
 # Add  code here!
 
-def prim?(int)
-  if int %
+def prim?(n)
+  if n % 
     puts TRUE
   else
     FALSE
